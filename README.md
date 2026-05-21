@@ -190,5 +190,5 @@ UniCORE is the implementation reference for governed AI. It is not a product, pl
 
 ## Contact
 
-- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions)
+- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions) (see [DISCUSSIONS.md](DISCUSSIONS.md))
 - **Private contact / connection request:** [LinkedIn](https://www.linkedin.com/in/bryan-fred-02209753/)

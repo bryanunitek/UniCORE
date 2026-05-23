@@ -14,6 +14,8 @@ A 30-year programme from apprentice to certified producer. A public foundation g
 
 *This is **UniCORE**, the implementation reference layer of the programme. It is the working code substrate that satisfies the [UniCORE AI](https://github.com/bryanunitek/UniCORE-AI) 12-Level reference architecture, which itself satisfies the [TrueAI](https://github.com/bryanunitek/TrueAI) Foundation. Sister repositories: [UniVERSE](https://github.com/bryanunitek/UniVERSE) (the programme), [TrueAI](https://github.com/bryanunitek/TrueAI) (the immutable Foundation), [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI) (the 12-level reference architecture).*
 
+*New to producing on the public gift surface? Start with [UniVERSE/GETTING_STARTED.md](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md).*
+
 ---
 
 # UniCORE

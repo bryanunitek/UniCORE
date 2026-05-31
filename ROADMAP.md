@@ -41,6 +41,8 @@ When `UniCORE.Law-Claw` is certified, this repository receives:
 - The build files (`.sln`, `.csproj`, `Directory.Packages.props`, `Directory.Build.props`) that compile the substrate.
 - Tests for the substrate.
 
+The Vertical CORE Law layer continues to mature ahead of certification. Vertical-CORE-side feature work — such as the multi-payor billing model, the multi-jurisdiction VAT resolver engine, and the protected-bank-detail workflow — lives inside `UniCORE.Law-Claw` rather than in this UniCORE substrate, and remains there at certification. The substrate is the cross-vertical layer; the Vertical CORE features stay with the Vertical CORE.
+
 ### Documentation
 - `docs/` — full architecture documents: governance integration, contracts, integration points, conformance claims.
 - `IRREVOCABLE-LICENCE-DECLARATION.md` — formal irrevocability declaration (mirror of, or reference to, the canonical UniVERSE declaration).
@@ -97,6 +99,29 @@ For the canonical horizon statement, see [`UniVERSE/HORIZON.md`](https://github.
 - **Read the canonical material** — the Foundation triad ([UniVERSE](https://github.com/bryanunitek/UniVERSE), [TrueAI](https://github.com/bryanunitek/TrueAI), [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI)) is fully published; the technical reference for what UniCORE substrate must satisfy is there.
 - **Build their own UniCORE-conformant substrate** under CC BY 4.0 — the architecture is open. Independent producers building Foundation-aligned substrates are exactly what the gift principle exists to enable.
 - **Discuss** — open a thread on this repository's [Discussions tab](https://github.com/bryanunitek/UniCORE/discussions) when adoption questions, architectural critique, or translation work has begun.
+
+---
+
+## Vertical CORE feature locks since v0.01 publication
+
+The UniCORE-substrate scope recorded above is the **cross-vertical layer**, not the Vertical CORE Law feature surface. Vertical-CORE-side features live in `UniCORE.Law-Claw` (and, in time, in each future Vertical CORE) and remain there at certification. The public statement here records the shape of Vertical CORE Law feature movement since the v0.01 publication of this ROADMAP, so that readers reasoning about UniCORE's architectural position can see how the surrounding programme has matured — without conflating Vertical CORE features with substrate scope.
+
+**What has locked at the Vertical CORE Law layer since v0.01 publication:**
+
+- **Multi-payor billing model.** A v1.0 capability supporting four bill patterns (one matter → one payor; many matters → one payor; one matter → many payors; many matters → many payors), a Payor model distinguishing client-rows from payor-rows, percentage-only allocation policy with per-bucket independent rounding, snapshot-at-bill-creation immutability, Lead Matter mechanics with auto-select rule and operator override, proportional tax-and-discount split, and an invariant guard that holds the one-bill-one-tax-jurisdiction rule.
+- **Multi-jurisdiction VAT resolver engine.** A v1.0 capability covering the UK and EU VAT regimes, US sales-tax regimes (state-level), and the seed-data files for the supported jurisdictions (UK, FR, DE, NL, US-CA, US-DC, US-IL, US-NY, US-TX). The resolver engine is jurisdiction-aware, evidence-bound, and integrated with the bill-allocation pipeline above.
+- **Protected-bank-detail workflow.** A v1.0 capability covering the lifecycle and workflow-approval controllers for protected bank-detail material, with field-cipher protection, sovereignty-principle preservation (customer holds the keys), and an evidence trail at the BO-graph level.
+
+**What has not changed at the substrate layer since v0.01 publication:**
+
+- The certification trigger condition is unchanged. Source code arrives at certification; the badge ("Powered by UniCORE AI / built on the TrueAI Foundation") remains the gate.
+- The substrate-only / Vertical-CORE-elsewhere boundary is unchanged. Vertical CORE Business Objects continue to live in each Vertical CORE; UniCORE carries the cross-vertical substrate layer only.
+- The CC BY 4.0 licence terms are unchanged and remain irrevocable.
+- The Continuous-publication shape (every release of UniCORE substrate from any Vertical CORE working repository mirrors here on push, post-certification) is unchanged.
+
+**Why this sub-section exists.** The substrate scope is what publishes here at certification. The Vertical CORE feature surface is what publishes in each Vertical CORE's own commercial repository (e.g. `UniCORE.Law` for the Law vertical). Recording, in a public-statement form, that Vertical CORE Law features have locked at v1.0 between v0.01 and certification — without claiming those features as part of UniCORE substrate scope — keeps the layer boundary visible. The discipline is part of the gift principle: keep the architectural surface honest about what is gift-layer (the substrate, here) and what is commercial-layer (the Vertical CORE features, elsewhere).
+
+For the parallel public statement on UniCORE.GVB substrate-scope evolution since v0.01 publication, see [`UniCORE.GVB`'s ROADMAP](https://github.com/bryanunitek/UniCORE.GVB/blob/main/ROADMAP.md) §"Substrate scope evolution since v0.01 publication". The two sub-sections are parallel-shape: GVB-side records substrate-scope movement; UniCORE-side records Vertical-CORE-feature-lock movement.
 
 ---
 

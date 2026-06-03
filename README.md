@@ -143,6 +143,19 @@ The working repositories are `bryanunitek/UniVIEW-Claw` and `bryanunitek/UniREPO
 
 ---
 
+## Intelligent Integration Controller
+
+The Intelligent Integration Controller (IIC) is the integration and data-movement subsystem of UniCORE. It provides secure messaging, secure file transfer manifests, and governed data exchange between systems — the integration spine that a Vertical CORE uses to connect to external systems (practice management, document management, billing, etc.) without exposing raw data paths.
+
+The IIC is built as a standalone service layer within the Vertical CORE working repository. At certification, the IIC interfaces and contracts become part of the UniCORE gift surface (CC BY 4.0).
+
+The working code lives in `bryanunitek/UniCORE.Law-Claw` (the first Vertical CORE), structured as:
+- `UniCORE.Law.IntelligentIntegrationController.Core` — interfaces and domain contracts
+- `UniCORE.Law.IntelligentIntegrationController.Persistence` — store implementations
+- `UniCORE.Law.IntelligentIntegrationController.Service` — the hosted service entry point
+
+---
+
 ## UniCORE Positioning Principle
 
 The programme is positioned as **Harmony, Peace, Space Exploration, for Humanity**.

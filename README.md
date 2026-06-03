@@ -165,6 +165,10 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 **The substrate-services layer:**
 - [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — Global Virtual Bridge — the substrate-services layer (mail, file transfer, DNS, federation, tenancy, topology). Sister to this repository. Same certification gate. Same gift principle.
 
+**The SaaS-deployment-shape sisters:**
+- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — The SaaS-deployment-shape sister of this repository. Same governance, multi-tenant topology. CC BY 4.0 gift surface.
+- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — The SaaS-deployment-shape sister of UniCORE.GVB. Substrate-services layer for the SaaS topology. CC BY 4.0 gift surface.
+
 **The Vertical CORE family (working repositories — private until certification):**
 - `bryanunitek/UniCORE.Law-Claw` — First Vertical CORE, Law sector. Working repository. Certification pending.
 - Future: `UniCORE.Accounting-Claw`, `UniCORE.Banking-Claw`, `UniCORE.Healthcare-Claw`, etc., as additional verticals are produced. The industry list is open and is defined as the programme expands. Military is intentionally absent — the UniCORE Positioning Principle is Harmony, Peace, Space Exploration, for Humanity.

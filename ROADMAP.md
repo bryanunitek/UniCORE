@@ -125,6 +125,17 @@ For the parallel public statement on UniCORE.GVB substrate-scope evolution since
 
 ---
 
+## SaaS deployment shape
+
+Since the v0.01 publication of this ROADMAP, the **SaaS-deployment-shape sister** of UniCORE has been published:
+
+- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — the same implementation reference, surfaced for the multi-tenant SaaS topology rather than the on-premise topology.
+- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — the same substrate-services layer, surfaced for the SaaS topology.
+
+The deployment shape is the only thing that distinguishes UniSaaS.UniCORE from UniCORE. The governance is the same. The Foundation invariants are the same. The 12-Level reference architecture is the same. The certification gate is the same. Three SaaS operator positions exist: Hosted SaaS, Private SaaS, and Self-hosted — the gift surface is uniform across all three.
+
+---
+
 ## Versioning of this document
 
 | Version | Date | Notes |

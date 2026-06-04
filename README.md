@@ -260,6 +260,10 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 - `bryanunitek/UniCORE.Law-Claw` — First Vertical CORE, Law sector. Working repository. Certification pending.
 - Future: `UniCORE.Accounting-Claw`, `UniCORE.Banking-Claw`, `UniCORE.Healthcare-Claw`, etc., as additional verticals are produced. The industry list is open and is defined as the programme expands. Military is intentionally absent — the UniCORE Positioning Principle is Harmony, Peace, Space Exploration, for Humanity.
 
+**Substrate-harness working repositories (private, deployment-shape pair):**
+- `bryanunitek/UniCORE-Claw` — on-prem-shape substrate-harness working repository. The reference Vertical CORE pattern (Module / UniVIEW / UniREPORT / hosts) that every concrete Vertical CORE inherits from. Currently being factored out of `UniCORE.Law-Claw`.
+- `bryanunitek/UniSaaS.UniCORE-Claw` — SaaS-shape substrate-harness working repository. SaaS-deployment-shape sister of `UniCORE-Claw`.
+
 **Forked-upstream building-block families (scaffold-anchor as of 2026-06-04 — full scaffolding and upstream fork pending dedicated kickoff arcs):**
 - [`UniCORE.Avalonia`](https://github.com/bryanunitek/UniCORE.Avalonia) — Cross-platform .NET UI substrate. Fork of MIT Avalonia + UniCORE CC BY 4.0 additions (Pro-equivalent controls + Avalonia XPF).
 - [`UniSaaS.UniCORE.Avalonia`](https://github.com/bryanunitek/UniSaaS.UniCORE.Avalonia) — SaaS-deployment-shape sister of UniCORE.Avalonia.

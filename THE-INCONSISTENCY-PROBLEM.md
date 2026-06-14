@@ -29,13 +29,15 @@ Truth without consistency is not deployable in regulated institutional settings.
 
 ## 1. The failure mode
 
-Today's frontier AIs are structurally inconsistent. This is not a defect of any one vendor; it is a property of how probabilistic language models are deployed at the consumer surface.
+Today's frontier AIs are structurally inconsistent. This is not a defect of any one vendor; it is a property of how probabilistic language models are deployed at the consumer surface, and — critically — **it is by design**. Variability, creativity, conversational warmth, and personalisation are *features* for the consumer audience, not bugs.
 
 - **Different vendors disagree.** A user asks Claude, ChatGPT, Gemini and Grok the same question and routinely gets four materially different answers.
 - **The same vendor disagrees with itself across sessions.** Same prompt, same model, two sessions, two answers. Sampling, context-window state, and routing differences each contribute.
 - **The same session drifts.** Long contexts and multi-turn pressure produce documented drift in frontier models. The answer at turn 3 is not always the answer at turn 30.
 
-Consumer AI is permitted to live with this. A bedtime story does not need verified-vs-unverified labels; a recipe does not need a deterministic gate; a brainstorm benefits from variation. None of those carry institutional consequences.
+Consumer AI is permitted to live with this *because Consumer AI is built for it*. A bedtime story that varies is good. A recipe that surprises you is good. A coding hint that explores is good. A brainstorm benefits from variation. None of those carry institutional consequences, and the major labs are correctly building the right thing for the audience they serve.
+
+**The pivot is the audience.** Inconsistency in Consumer AI is a feature; inconsistency in Institutional AI is a structural-safety problem. Same word, opposite verdict, because the audience and the consequence space are different. Institutional AI is therefore not "Consumer AI with more guardrails" — it is a different product class with a different design target from sentence one. You cannot bolt institutional consistency onto a system designed to vary; the starting point is wrong.
 
 Institutional AI carries institutional consequences. A bank cannot give one applicant a TRUE suitability verdict on Tuesday and a FALSE verdict on the same facts on Thursday. A clinical-decision-support system cannot stop one clinician and clear another on the same drug interaction. A court cannot accept evidence a Law-AI ranked privileged on one read and disclosable on another. A tax system cannot classify the same transaction differently for the same taxpayer based on which session asked the question.
 

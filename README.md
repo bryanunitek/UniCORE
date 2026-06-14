@@ -40,6 +40,21 @@ UniCORE is the gift layer. The Vertical Business Objects are the commercial laye
 
 ---
 
+## The Inconsistency Problem — third pillar of Institutional AI doctrine
+
+Institutional AI fails the moment the same input produces a different output. Different vendors give different answers. The same vendor gives different answers in different sessions. Even the same session can drift. Acceptable for a recipe or a bedtime story. Structurally unsafe for a credit decision, a clinical triage, a tax classification, or a privilege ruling.
+
+UniCORE answers this with a two-layer architecture:
+
+1. **Foundation consistency** — the [UniCORE AI](https://github.com/bryanunitek/UniCORE-AI) 12-Level governance stack and the per-level governance MD files. Same input + same governance state → same output.
+2. **Vertical consistency** — each Vertical CORE (Law, Banking, Healthcare, Accounting, …) inherits foundation consistency and adds industry-specific consistency primitives on top.
+
+Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract).
+
+Full doctrine: [`THE-INCONSISTENCY-PROBLEM.md`](THE-INCONSISTENCY-PROBLEM.md).
+
+---
+
 ## Why this repository exists today
 
 This repository exists today as the **canonical public home** for UniCORE — the place where its identity, licence, roadmap, and naming rules are recorded.

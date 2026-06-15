@@ -12,7 +12,7 @@ Status: Public. Given, not sold. Irrevocable. CC BY 4.0.
 
 Institutional AI fails the moment the same input produces a different output. Different vendors give different answers. The same vendor gives different answers in different sessions. Even the same session can drift. Multiple humans steering the same Claw produce conflicting authority. Acceptable for a recipe or a bedtime story. Structurally unsafe for a credit decision, a clinical triage, a tax classification, a privilege ruling, or any outcome that touches money, freedom, health, or rights.
 
-UniCORE answers this with **three structurally independent guarantees** across **two surfaces**:
+UniCORE answers this with **three structurally independent guarantees** across **two surfaces** — honestly: **no AI architecture today can guarantee 100% consistency** (probabilistic models sit at the application boundary; their training is vendor-controlled and changes over time), but UniCORE gets consistency **as close to absolute as the constraints UniCORE controls allow**, and **names, bounds, and audits the residual** that lies outside that control.
 
 **Machine-side answer (two layers):**
 
@@ -106,17 +106,28 @@ The structural answer to the human-side surface is the **Singular Pairing Princi
 
 Foundation consistency, vertical consistency, and singular human pairing are three structurally independent guarantees. Removing any one of them breaks the institutional case for the whole.
 
-## 6. The combined guarantee
+## 6. The combined guarantee — honest framing
 
-Putting all three answer surfaces together, the institutional guarantee a UniCORE-conformant Vertical CORE makes is:
+**No AI architecture today can guarantee 100% consistency.** Probabilistic language models sit at the application boundary; their training is controlled by their vendors, not by UniCORE; and that training changes over time. Any claim of absolute end-to-end determinism would be dishonest.
 
-> **Same user input + same governance MD-file set + same Vertical-CORE consistency rules + 1-Human-1-Claw producer pairing → same output.**
+What UniCORE makes is the **structural maximum** consistency achievable given that external-AI dependency:
+
+- **Where UniCORE controls the surface, the surface is deterministic.** Governance MD-files are version-locked and hash-attested; the 12-Level path is structurally enforced; substrate-side data outcomes are uniform across nodes; Vertical-CORE consistency primitives are classified per industry.
+- **Where the external AI model controls the surface, the surface is non-deterministic by physics.** The residual inconsistency from the external model is real, irreducible at the boundary, and **named-bounded-auditable**: the evidence chain records what governance state applied, what input was given, what decision the AI returned, and which version of the external AI was in use.
+
+Putting all three answer surfaces together, the institutional posture a UniCORE-conformant Vertical CORE makes is:
+
+> **Same user input + same governance MD-file set + same Vertical-CORE consistency rules + 1-Human-1-Claw producer pairing → the closest end-to-end consistency achievable given the external-AI dependency, with the residual inconsistency named, bounded, and auditable.**
 >
 > Across vendors. Across sessions. Across nodes. Across years. Across producer-pairs that satisfy 1H1C.
+>
+> Where the external AI introduces residual drift, the evidence chain captures it so the residual surface is auditable end-to-end.
 
-This is the guarantee a regulator can audit. It is the guarantee a court can rely on. It is the guarantee an insurer can underwrite. It is the guarantee an institution can put its name to.
+This is the posture a regulator can audit — including its honestly-named edge. It is the posture a court can rely on, an insurer can underwrite, and an institution can put its name to, because it does not promise what no architecture can honestly promise; it delivers the structural maximum and surfaces the residual.
 
-It is not the guarantee Consumer AI is built to provide, because Consumer AI is not asked to provide it. Institutional AI is asked to provide it; the Inconsistency Problem is the failure mode that makes the asking real; the three-surface answer is the structural response.
+It is not the posture Consumer AI is built to provide, because Consumer AI is not asked to provide it. Institutional AI is asked to provide it; the Inconsistency Problem is the failure mode that makes the asking real; the three-surface answer is the honest structural response.
+
+**Canonical edition** of this doctrine lives at [`bryanunitek/TrueAI/THE-INCONSISTENCY-PROBLEM.md`](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md).
 
 ## 7. Where this doctrine sits in the corpus
 

@@ -84,6 +84,8 @@ Full doctrine: [`THE-INCONSISTENCY-PROBLEM.md`](THE-INCONSISTENCY-PROBLEM.md).
 
 ## Why this repository exists today
 
+*Powered by UniCORE AI built on the TrueAI foundation is a moral and ethical answer to Advanced AI for humanity.*
+
 This repository exists today as the **canonical public home** for UniCORE — the place where its identity, licence, roadmap, and naming rules are recorded.
 
 **The source code is not yet published here.** Source code is published when the first Vertical CORE that uses UniCORE — `UniCORE.Law-Claw` — is certified Powered by UniCORE AI / built on the TrueAI Foundation. See [ROADMAP.md](ROADMAP.md) for the trigger condition and what arrives at that point.

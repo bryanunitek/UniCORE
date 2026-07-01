@@ -211,17 +211,20 @@ The working repositories are `bryanunitek/UniVIEW-Claw` and `bryanunitek/UniREPO
 
 ---
 
-## NVarchar Data Mode — Open, Scrambled, Encrypted
+## NVarchar Data Mode — Open, Scrambled, Encrypted, Quancrypted
 
-All NVARCHAR (string) data across the UniCORE substrate is governed by a three-mode architecture:
+All NVARCHAR (string) data across the UniCORE substrate is governed by a four-mode architecture:
 
 | Mode | Default | Description |
 |---|---|---|
 | **Scrambled** | ✅ Yes | Reversibly scrambled storage. Prevents casual database inspection. The owning system’s scramble key is required to read. |
 | **Open** | | Plain text. Used where scrambling is operationally inappropriate (e.g. full-text search indexes). |
 | **Encrypted** | | Field-level encryption. Future feature (reserved). The customer holds the decryption key (sovereignty principle). |
+| **Quancrypted** | | Field-level encryption with **post-quantum** key protection. Future feature (reserved). The same field cipher as Encrypted, but the key-management/envelope layer uses post-quantum cryptography (ML-KEM key encapsulation, per NIST FIPS 203) so the protection survives a cryptographically-relevant quantum computer. The customer still holds the decryption key (sovereignty principle). This is the quantum-safe end-state of the data-at-rest posture. |
 
 **Default posture: Scrambled.** All string fields arrive Scrambled unless explicitly resolved otherwise by a policy chain. The resolution cascade is: Workload → Tenant → Product → Default (Scrambled).
+
+Encrypted and Quancrypted are **reserved future modes**: the enum values exist so that fields can be tagged for them and the persistence seam can carry them, but the cryptographic implementations are not yet shipped. Quancrypted is the data-at-rest counterpart of the substrate post-quantum posture — see the [`UniCORE.GVB` POST-QUANTUM.md](https://github.com/bryanunitek/UniCORE.GVB/blob/main/POST-QUANTUM.md) for the threat model, standards, and migration timeline.
 
 This is a substrate-level concern. Both the on-prem UniCORE and the SaaS UniSaaS.UniCORE deployments enforce the same posture. The enum, resolver interface, policy store, and default resolver live at the GVB substrate layer (`UniCORE.GVB.Common`) so that every Vertical CORE inherits the data-mode posture without re-implementing it.
 

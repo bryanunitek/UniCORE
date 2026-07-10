@@ -185,3 +185,20 @@ Until then, the doctrine stands as a public-domain architectural commitment unde
 Attribution required wherever the Inconsistency Problem doctrine, the 12-Level Governance Model, the TrueAI Foundation, or the UniCORE name is referenced, implemented, or extended.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, 2026-06-14.
+
+---
+
+## Document history
+
+- 2026-06-14 (377fd88) — docs: third pillar of Institutional AI doctrine — The Inconsistency Problem
+- 2026-06-14 (3c30d61) — docs(inconsistency-problem): rename TL;DR heading to "Summary (TL;DR)"
+- 2026-06-14 (ecf2144) — docs(inconsistency-problem): add §5 human-side answer (Singular Pairing / 1H1C)
+- 2026-06-14 (94884c8) — docs(inconsistency-problem): sharpen §1 — Consumer AI is by design
+- 2026-06-15 (42c9d23) — docs: THE-INCONSISTENCY-PROBLEM.md — honest guarantee framing (Bryan-authorised correction)
+- 2026-06-15 (b8865e6) — docs: THE-INCONSISTENCY-PROBLEM.md — production-layer-vs-operations-layer correction
+- 2026-06-15 (6228edb) — docs: § "Summary (TL;DR)" → "Summary" (institutional-tone correction)
+- 2026-06-15 (d28d7f2) — docs: Inconsistency — xH1C operations layer + per-Level + DEV/TEST 1H1C (SPP v1.3 alignment)
+- 2026-06-15 (5c4982c) — docs: fix dead Reasonable Governance Threshold link — UniCORE-AI → UniVERSE
+- 2026-06-17 (3385c4b) — Strip 'v1.3' from Singular-Pairing-Principle pointer text
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -162,3 +162,12 @@ The substrate is designed so that a Vertical CORE producer operating under diffe
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | June 2026 | First publication. Describes Tier-3 AI Compliance as implemented in the UniCORE substrate, covering all eight EU AI Act service modules and the 2026-08-02 Annex III §8(a) in-force date. |
+
+---
+
+## Document history
+
+- 2026-06-25 (e35b99b) — docs: add AI-COMPLIANCE.md and LOCALISATION.md
+- 2026-06-25 (b1bcef2) — docs: remove Book of Unitek Systems Limited references — public repos must not reference private operational documentation
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

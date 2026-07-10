@@ -35,3 +35,12 @@ The irrevocable CC BY 4.0 licence commitment declared in the canonical document 
 ---
 
 *Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom. Public. Given, not sold. Irrevocable.*
+
+---
+
+## Document history
+
+- 2026-05-21 (203f7ef) — docs: parallel-structure files (Sanity Check #002 F3 + F5)
+- 2026-05-22 (8b8604e) — docs(IRREVOCABLE-LICENCE-DECLARATION): strip version marker
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

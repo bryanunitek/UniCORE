@@ -156,3 +156,14 @@ The precise, file-level status of every component — built / module-wired / hos
 Numbers cited in public material are re-verified against the repository file tree before publication, not against any summary of it. Where this addendum and a working-repository ledger disagree, the ledger — generated from live source — governs.
 
 *This addendum is documentation-only under CC BY 4.0. It does not claim regulatory approval, attest conformity, or accept liability. Per-deployment compliance determinations remain the responsibility of the deployer and their qualified legal counsel.*
+
+---
+
+## Document history
+
+- 2026-05-21 (3b13258) — docs: initial v0.01 — public canonical home for UniCORE
+- 2026-05-21 (fdb3396) — docs: add Military-is-intentionally-absent section to STATEMENT-ON-CLAIMS (Sanity Check #002 F4)
+- 2026-05-22 (1dc7b14) — docs: complete version-marker sweep across public corpus
+- 2026-06-27 (b0f8f9b) — docs(STATEMENT-ON-CLAIMS): add 2026-06-27 Build Status Addendum
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

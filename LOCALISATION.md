@@ -157,12 +157,3 @@ Translated outputs do not alter the AI system's obligations under the EU AI Act.
 | Version | Date | Change |
 |---|---|---|
 | 1.0 | June 2026 | First publication. Describes Tier-1 Localisation as implemented in the UniCORE substrate. |
-
----
-
-## Document history
-
-- 2026-06-25 (e35b99b) — docs: add AI-COMPLIANCE.md and LOCALISATION.md
-- 2026-06-25 (b1bcef2) — docs: remove Book of Unitek Systems Limited references — public repos must not reference private operational documentation
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

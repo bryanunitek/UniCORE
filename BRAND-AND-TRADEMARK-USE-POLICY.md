@@ -45,12 +45,3 @@ When `UniCORE.Law`, `UniCORE.Healthcare`, etc. are created as their own public r
 ---
 
 *Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom. Public. Given, not sold. Irrevocable.*
-
----
-
-## Document history
-
-- 2026-05-21 (203f7ef) — docs: parallel-structure files (Sanity Check #002 F3 + F5)
-- 2026-05-22 (1dc7b14) — docs: complete version-marker sweep across public corpus
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

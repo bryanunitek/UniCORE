@@ -833,16 +833,3 @@ That's the elevator answer. Send them this document for the detail.
 | Licence of this document | Creative Commons Attribution 4.0 International (CC BY 4.0) |
 | Review status | Living document — corrections and clarifications welcome via [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions) |
 | Companion documents | [LICENSE.md](LICENSE.md) · [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) · [ROADMAP.md](ROADMAP.md) · [IRREVOCABLE-LICENCE-DECLARATION.md](IRREVOCABLE-LICENCE-DECLARATION.md) |
-
----
-
-## Document history
-
-- 2026-05-22 (a9305a2) — docs: add LICENSING.md — formal licensing reference with 11 worked scenarios
-- 2026-05-22 (7b61de0) — docs: rename LICENSING.md → LICENSE_EXAMPLES.md — v0.02 with four new scenarios
-- 2026-05-22 (68d2691) — docs(licence): v0.03 — restore <4 Levels scenario + add UniCORE.GVB + UniCORE.Desktop substrate-lock
-- 2026-05-22 (9b8f634) — docs(licence): v0.04 — badge handshake clarification for UniCORE.Desktop chain
-- 2026-05-22 (1a4c50b) — docs(LICENSE_EXAMPLES): strip version markers — public-corpus rule
-- 2026-05-23 (3059739) — docs(license-examples): fix typo — 'forced' → 'forked' in substrate-layer chain-lock bullet
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

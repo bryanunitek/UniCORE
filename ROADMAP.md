@@ -152,3 +152,13 @@ Revisions tracked in git history.
 - **Private contact / connection request:** [LinkedIn](https://www.linkedin.com/in/bryan-fred-02209753/)
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, May 2026.
+
+---
+
+## Document history
+
+- 2026-05-21 (3b13258) — docs: initial v0.01 — public canonical home for UniCORE
+- 2026-05-31 (0256a2f) — docs(ROADMAP): add Vertical CORE feature notes paragraph + "Vertical CORE feature locks since v0.01 publication" sub-section (Sanity Checkpoint #010 Action 8)
+- 2026-06-03 (3b979f1) — docs: add UniSaaS sister repos + SaaS deployment shape section
+
+*Back-filled from git log on 2026-07-10 21:33 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

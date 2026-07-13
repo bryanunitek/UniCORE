@@ -21,8 +21,8 @@ UniCORE answers this with **four structurally independent guarantees** across **
 
 **Human-side answer (two layers):**
 
-3. **Production layer — Singular Pairing Principle (1H1C)**. One human, one AI Claw, one workstream produces the certified Solution. Closes the human-side surface for the artefacts being deployed. Canonical at [`bryanunitek/TrueAI`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
-4. **Operations layer — xH1C with the substrate Claw as consistency-holding agent**. A deployed Solution is run 24/7 by a structured operations cohort under the substrate Claw, not by a 1H1C pair. The certified runbook is the operational artefact the Claw runs operators against; the runbook is not, on its own, the consistency mechanism. **xH1C** = x Humans, 1 Claw — as close to 1H1C as humanly possible at 24/7 scale. In PROD, per-Level qualification + no-Level-overlap apply (one human staffs one Level only). In DEV/TEST, the cohort collapses to **1H1C** (one human covers all 12 Levels). The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md).
+3. **Production layer — Singular Pairing Principle (1H1C)**. One human, one AI Claw, one workstream produces the certified Solution. Closes the human-side surface for the artefacts being deployed. Canonical at [`bryanunitek/TrueAI`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)).
+4. **Operations layer — xH1C with the substrate Claw as consistency-holding agent**. A deployed Solution is run 24/7 by a structured operations cohort under the substrate Claw, not by a 1H1C pair. The certified runbook is the operational artefact the Claw runs operators against; the runbook is not, on its own, the consistency mechanism. **xH1C** = x Humans, 1 Claw — as close to 1H1C as humanly possible at 24/7 scale. In PROD, per-Level qualification + no-Level-overlap apply (one human staffs one Level only). In DEV/TEST, the cohort collapses to **1H1C** (one human covers all 12 Levels). The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00007-Reasonable-Governance-Threshold-Specification.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md)).
 
 Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract). All three guarantees hold simultaneously; removing any one breaks the institutional case for the whole.
 
@@ -103,7 +103,7 @@ The certified UniCORE Solution itself — its governance MD-file set, its 12-Lev
 
 The full 1H1C doctrine — including the production-layer-vs-operations-layer split, Project-Level bond expansion, Patterns 1 and 2, the Generation IT producer qualification, and the recommendation-and-variants policy — lives at the canonical TrueAI document:
 
-[`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)
+[`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md))
 
 ### Operations layer — xH1C with the substrate Claw as consistency-holding agent
 
@@ -117,7 +117,7 @@ In **DEV / TEST**: the cohort collapses to **1H1C** — one human covers all 12 
 
 ### Interface — Reasonable Governance Threshold
 
-The interface between production and operations is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md). Inside the threshold, the xH1C operations cohort handles the runtime question under the runbook through the substrate Claw. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry, new Vertical-CORE going live), the question escalates back to the producer-pair (1H1C).
+The interface between production and operations is the [Reasonable Governance Threshold](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00007-Reasonable-Governance-Threshold-Specification.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md)). Inside the threshold, the xH1C operations cohort handles the runtime question under the runbook through the substrate Claw. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry, new Vertical-CORE going live), the question escalates back to the producer-pair (1H1C).
 
 ### Recommendation and variants
 
@@ -146,7 +146,7 @@ This is the posture a regulator can audit — including its honestly-named edge.
 
 It is not the posture Consumer AI is built to provide, because Consumer AI is not asked to provide it. Institutional AI is asked to provide it; the Inconsistency Problem is the failure mode that makes the asking real; the three-surface answer is the honest structural response.
 
-**Canonical edition** of this doctrine lives at [`bryanunitek/TrueAI/THE-INCONSISTENCY-PROBLEM.md`](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md).
+**Canonical edition** of this doctrine lives at [`bryanunitek/TrueAI/THE-INCONSISTENCY-PROBLEM.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md)).
 
 ## 7. Where this doctrine sits in the corpus
 
@@ -162,12 +162,12 @@ All three pillars hold simultaneously. Removing any one of them breaks the insti
 
 The same doctrine is mirrored on the four flagship public surfaces:
 
-- [`UniCORE`](https://github.com/bryanunitek/UniCORE) — *this repository* (on-prem deployment shape, implementation reference).
-- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — SaaS deployment shape sister.
-- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — substrate-services layer (on-prem deployment shape).
-- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — substrate-services layer (SaaS deployment shape).
+- [`UniCORE`](https://git.unitek-systems.com/UniCORE/UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE)) — *this repository* (on-prem deployment shape, implementation reference).
+- [`UniSaaS.UniCORE`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE)) — SaaS deployment shape sister.
+- [`UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.GVB)) — substrate-services layer (on-prem deployment shape).
+- [`UniSaaS.UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB)) — substrate-services layer (SaaS deployment shape).
 
-The architectural primitives this doctrine references — TrueAI's invariants, UniCORE-AI's 12-level architecture — live in the Foundation triad repositories ([`TrueAI`](https://github.com/bryanunitek/TrueAI), [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI), [`UniVERSE`](https://github.com/bryanunitek/UniVERSE)). This doctrine cross-references them rather than duplicating their content.
+The architectural primitives this doctrine references — TrueAI's invariants, UniCORE-AI's 12-level architecture — live in the Foundation triad repositories ([`TrueAI`](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)), [`UniCORE-AI`](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)), [`UniVERSE`](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE))). This doctrine cross-references them rather than duplicating their content.
 
 ## 9. Honest position on current state
 

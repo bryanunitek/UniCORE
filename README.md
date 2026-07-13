@@ -12,9 +12,9 @@ A 30-year programme from apprentice to certified producer. A public foundation g
 
 ---
 
-*This is **UniCORE**, the implementation reference layer of the programme. It is the working code substrate that satisfies the [UniCORE AI](https://github.com/bryanunitek/UniCORE-AI) 12-Level reference architecture, which itself satisfies the [TrueAI](https://github.com/bryanunitek/TrueAI) Foundation. Sister repositories: [UniVERSE](https://github.com/bryanunitek/UniVERSE) (the programme), [TrueAI](https://github.com/bryanunitek/TrueAI) (the immutable Foundation), [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI) (the 12-level reference architecture).*
+*This is **UniCORE**, the implementation reference layer of the programme. It is the working code substrate that satisfies the [UniCORE AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) 12-Level reference architecture, which itself satisfies the [TrueAI](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)) Foundation. Sister repositories: [UniVERSE](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) (the programme), [TrueAI](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)) (the immutable Foundation), [UniCORE-AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) (the 12-level reference architecture).*
 
-*New to producing on the public gift surface? Start with [UniVERSE/GETTING_STARTED.md](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md).*
+*New to producing on the public gift surface? Start with [UniVERSE/GETTING_STARTED.md](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/GETTING_STARTED.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md)).*
 
 ---
 
@@ -28,7 +28,7 @@ Today's frontier AIs are configured for **consumer** use: variability, creativit
 
 ### Pillar 2 — Truth: the TrueAI Foundation truth contract
 
-What an AI system is permitted to claim, and what it is required to mark as unverified. The Nine Invariants of the [TrueAI Foundation](https://github.com/bryanunitek/TrueAI) make explicit: TRUE means evidenced, FALSE means falsified, UNVERIFIED means the system declined to assert. No third state where the system fabricates confidence it does not have.
+What an AI system is permitted to claim, and what it is required to mark as unverified. The Nine Invariants of the [TrueAI Foundation](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)) make explicit: TRUE means evidenced, FALSE means falsified, UNVERIFIED means the system declined to assert. No third state where the system fabricates confidence it does not have.
 
 ### Pillar 3 — Inconsistency: same input → same decision
 
@@ -37,7 +37,7 @@ Truth without consistency is not deployable in regulated institutional settings.
 - **Machine-side**: foundation consistency (UniCORE-AI 12-Level governance + governance MD-files) + vertical consistency (per-Vertical-CORE primitives).
 - **Human-side**: 1H1C at the production layer (Singular Pairing Principle — one human, one AI Claw, one workstream, produces certified artefacts) + xH1C at the operations layer (x humans operating the deployed Solution through one substrate Claw as consistency-holding agent, with per-Level qualification in PROD).
 
-Canonical: [THE-INCONSISTENCY-PROBLEM.md](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md). The Singular Pairing Principle doctrine lives at [`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
+Canonical: [THE-INCONSISTENCY-PROBLEM.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md)). The Singular Pairing Principle doctrine lives at [`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)).
 
 ### Honest framing
 
@@ -73,7 +73,7 @@ Institutional AI fails the moment the same input produces a different output. Di
 
 UniCORE answers this with a two-layer architecture:
 
-1. **Foundation consistency** — the [UniCORE AI](https://github.com/bryanunitek/UniCORE-AI) 12-Level governance stack and the per-level governance MD files. Same input + same governance state → same output.
+1. **Foundation consistency** — the [UniCORE AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) 12-Level governance stack and the per-level governance MD files. Same input + same governance state → same output.
 2. **Vertical consistency** — each Vertical CORE (Law, Banking, Healthcare, Accounting, …) inherits foundation consistency and adds industry-specific consistency primitives on top.
 
 Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract).
@@ -105,7 +105,7 @@ The repository will accumulate documentation between now and certification. Sour
 
 ## The Layered CORE position
 
-UniCORE sits within the **Layered CORE model** ([`UniVERSE/docs/00057-Layered-CORE-Model.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00057-Layered-CORE-Model.md)).
+UniCORE sits within the **Layered CORE model** ([`UniVERSE/docs/00057-Layered-CORE-Model.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00057-Layered-CORE-Model.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00057-Layered-CORE-Model.md))).
 
 ```
 Level 1 CORE — TrueAI Foundation       (universal, immutable, gift)
@@ -187,7 +187,7 @@ Client applications (scope):
 - **DNS management client** — zone and record management interface
 - **Monitoring dashboard** — desktop-side observability client (bandwidth, storage, service health)
 
-UniCORE.Desktop is documented in both this repository and [`bryanunitek/UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) because the applications serve both layers. At certification, UniCORE.Desktop publishes as its own repository (`bryanunitek/UniCORE.Desktop`) with cross-references from both.
+UniCORE.Desktop is documented in both this repository and [`bryanunitek/UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.GVB)) because the applications serve both layers. At certification, UniCORE.Desktop publishes as its own repository (`bryanunitek/UniCORE.Desktop`) with cross-references from both.
 
 The working repository is `bryanunitek/UniCORE.Desktop-Claw` (private until certification).
 
@@ -224,7 +224,7 @@ All NVARCHAR (string) data across the UniCORE substrate is governed by a four-mo
 
 **Default posture: Scrambled.** All string fields arrive Scrambled unless explicitly resolved otherwise by a policy chain. The resolution cascade is: Workload → Tenant → Product → Default (Scrambled).
 
-Encrypted and Quancrypted are **reserved future modes**: the enum values exist so that fields can be tagged for them and the persistence seam can carry them, but the cryptographic implementations are not yet shipped. Quancrypted is the data-at-rest counterpart of the substrate post-quantum posture — see the [`UniCORE.GVB` POST-QUANTUM.md](https://github.com/bryanunitek/UniCORE.GVB/blob/main/POST-QUANTUM.md) for the threat model, standards, and migration timeline.
+Encrypted and Quancrypted are **reserved future modes**: the enum values exist so that fields can be tagged for them and the persistence seam can carry them, but the cryptographic implementations are not yet shipped. Quancrypted is the data-at-rest counterpart of the substrate post-quantum posture — see the [`UniCORE.GVB` POST-QUANTUM.md](https://git.unitek-systems.com/UniCORE/UniCORE.GVB/src/branch/main/POST-QUANTUM.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.GVB/blob/main/POST-QUANTUM.md)) for the threat model, standards, and migration timeline.
 
 This is a substrate-level concern. Both the on-prem UniCORE and the SaaS UniSaaS.UniCORE deployments enforce the same posture. The enum, resolver interface, policy store, and default resolver live at the GVB substrate layer (`UniCORE.GVB.Common`) so that every Vertical CORE inherits the data-mode posture without re-implementing it.
 
@@ -292,16 +292,16 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 ## Related repositories
 
 **The Foundation triad:**
-- [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — The civilisational-scale programme. Whitepapers, governance, outreach.
-- [`TrueAI`](https://github.com/bryanunitek/TrueAI) — The immutable Foundation. Nine Invariants. Small. Stable. Never commercial.
-- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — The 12-Level reference architecture.
+- [`UniVERSE`](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) — The civilisational-scale programme. Whitepapers, governance, outreach.
+- [`TrueAI`](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)) — The immutable Foundation. Nine Invariants. Small. Stable. Never commercial.
+- [`UniCORE-AI`](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) — The 12-Level reference architecture.
 
 **The substrate-services layer:**
-- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — Global Virtual Bridge — the substrate-services layer (mail, file transfer, DNS, federation, tenancy, topology). Sister to this repository. Same certification gate. Same gift principle.
+- [`UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.GVB)) — Global Virtual Bridge — the substrate-services layer (mail, file transfer, DNS, federation, tenancy, topology). Sister to this repository. Same certification gate. Same gift principle.
 
 **The SaaS-deployment-shape sisters:**
-- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — The SaaS-deployment-shape sister of this repository. Same governance, multi-tenant topology. CC BY 4.0 gift surface.
-- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — The SaaS-deployment-shape sister of UniCORE.GVB. Substrate-services layer for the SaaS topology. CC BY 4.0 gift surface.
+- [`UniSaaS.UniCORE`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE)) — The SaaS-deployment-shape sister of this repository. Same governance, multi-tenant topology. CC BY 4.0 gift surface.
+- [`UniSaaS.UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB)) — The SaaS-deployment-shape sister of UniCORE.GVB. Substrate-services layer for the SaaS topology. CC BY 4.0 gift surface.
 
 **The Vertical CORE family (working repositories — private until certification):**
 - `bryanunitek/UniCORE.Law-Claw` — First Vertical CORE, Law sector. Working repository. Certification pending.
@@ -312,28 +312,28 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 - `bryanunitek/UniSaaS.UniCORE-Claw` — SaaS-shape substrate-harness working repository. SaaS-deployment-shape sister of `UniCORE-Claw`.
 
 **Forked-upstream building-block families (scaffold-anchor as of 2026-06-04 — full scaffolding and upstream fork pending dedicated kickoff arcs):**
-- [`UniCORE.Avalonia`](https://github.com/bryanunitek/UniCORE.Avalonia) — Cross-platform .NET UI substrate. Fork of MIT Avalonia + UniCORE CC BY 4.0 additions (Pro-equivalent controls + Avalonia XPF).
-- [`UniSaaS.UniCORE.Avalonia`](https://github.com/bryanunitek/UniSaaS.UniCORE.Avalonia) — SaaS-deployment-shape sister of UniCORE.Avalonia.
+- [`UniCORE.Avalonia`](https://git.unitek-systems.com/UniCORE/UniCORE.Avalonia) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.Avalonia)) — Cross-platform .NET UI substrate. Fork of MIT Avalonia + UniCORE CC BY 4.0 additions (Pro-equivalent controls + Avalonia XPF).
+- [`UniSaaS.UniCORE.Avalonia`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Avalonia) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Avalonia)) — SaaS-deployment-shape sister of UniCORE.Avalonia.
 - `bryanunitek/UniCORE.Avalonia-Claw` (private) — on-prem-shape working repository for UniCORE.Avalonia.
 - `bryanunitek/UniSaaS.UniCORE.Avalonia-Claw` (private) — SaaS-shape working repository.
-- [`UniCORE.DNN`](https://github.com/bryanunitek/UniCORE.DNN) — Web CMS / portal building block. Fork of MIT Dnn.Platform + UniCORE CC BY 4.0 modules.
-- [`UniSaaS.UniCORE.DNN`](https://github.com/bryanunitek/UniSaaS.UniCORE.DNN) — SaaS-deployment-shape sister of UniCORE.DNN.
+- [`UniCORE.DNN`](https://git.unitek-systems.com/UniCORE/UniCORE.DNN) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.DNN)) — Web CMS / portal building block. Fork of MIT Dnn.Platform + UniCORE CC BY 4.0 modules.
+- [`UniSaaS.UniCORE.DNN`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.DNN) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.DNN)) — SaaS-deployment-shape sister of UniCORE.DNN.
 - `bryanunitek/UniCORE.DNN-Claw` (private) — on-prem-shape working repository for UniCORE.DNN.
 - `bryanunitek/UniSaaS.UniCORE.DNN-Claw` (private) — SaaS-shape working repository.
-- [`UniCORE.Asterisk`](https://github.com/bryanunitek/UniCORE.Asterisk) — VoIP/PBX telephony engine. Fork of GPL-2.0 Asterisk + UniCORE additions. Full upstream history (34,425 commits).
-- [`UniSaaS.UniCORE.Asterisk`](https://github.com/bryanunitek/UniSaaS.UniCORE.Asterisk) — SaaS-deployment-shape sister of UniCORE.Asterisk.
+- [`UniCORE.Asterisk`](https://git.unitek-systems.com/UniCORE/UniCORE.Asterisk) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.Asterisk)) — VoIP/PBX telephony engine. Fork of GPL-2.0 Asterisk + UniCORE additions. Full upstream history (34,425 commits).
+- [`UniSaaS.UniCORE.Asterisk`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Asterisk) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Asterisk)) — SaaS-deployment-shape sister of UniCORE.Asterisk.
 - `bryanunitek/UniCORE.Asterisk-Claw` (private) — on-prem-shape working repository for UniCORE.Asterisk.
 - `bryanunitek/UniSaaS.UniCORE.Asterisk-Claw` (private) — SaaS-shape working repository.
-- [`UniCORE.Jitsi`](https://github.com/bryanunitek/UniCORE.Jitsi) — Video conferencing (Meet + Videobridge). Fork of Apache-2.0 Jitsi + UniCORE additions. Multi-upstream (13,956 commits).
-- [`UniSaaS.UniCORE.Jitsi`](https://github.com/bryanunitek/UniSaaS.UniCORE.Jitsi) — SaaS-deployment-shape sister of UniCORE.Jitsi.
+- [`UniCORE.Jitsi`](https://git.unitek-systems.com/UniCORE/UniCORE.Jitsi) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.Jitsi)) — Video conferencing (Meet + Videobridge). Fork of Apache-2.0 Jitsi + UniCORE additions. Multi-upstream (13,956 commits).
+- [`UniSaaS.UniCORE.Jitsi`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Jitsi) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Jitsi)) — SaaS-deployment-shape sister of UniCORE.Jitsi.
 - `bryanunitek/UniCORE.Jitsi-Claw` (private) — on-prem-shape working repository for UniCORE.Jitsi.
 - `bryanunitek/UniSaaS.UniCORE.Jitsi-Claw` (private) — SaaS-shape working repository.
-- [`UniCORE.Signal`](https://github.com/bryanunitek/UniCORE.Signal) — Secure messaging platform. Fork of AGPL-3.0 Signal Server + UniCORE additions. Full upstream history (5,010 commits).
-- [`UniSaaS.UniCORE.Signal`](https://github.com/bryanunitek/UniSaaS.UniCORE.Signal) — SaaS-deployment-shape sister of UniCORE.Signal.
+- [`UniCORE.Signal`](https://git.unitek-systems.com/UniCORE/UniCORE.Signal) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.Signal)) — Secure messaging platform. Fork of AGPL-3.0 Signal Server + UniCORE additions. Full upstream history (5,010 commits).
+- [`UniSaaS.UniCORE.Signal`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.Signal) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.Signal)) — SaaS-deployment-shape sister of UniCORE.Signal.
 - `bryanunitek/UniCORE.Signal-Claw` (private) — on-prem-shape working repository for UniCORE.Signal.
 - `bryanunitek/UniSaaS.UniCORE.Signal-Claw` (private) — SaaS-shape working repository.
-- [`UniCORE.XCP`](https://github.com/bryanunitek/UniCORE.XCP) — Virtualisation platform (XCP-ng hypervisor + Xen Orchestra management). Fork of GPL-2.0/AGPL-3.0 + UniCORE additions. Multi-upstream (493 commits).
-- [`UniSaaS.UniCORE.XCP`](https://github.com/bryanunitek/UniSaaS.UniCORE.XCP) — SaaS-deployment-shape sister of UniCORE.XCP.
+- [`UniCORE.XCP`](https://git.unitek-systems.com/UniCORE/UniCORE.XCP) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.XCP)) — Virtualisation platform (XCP-ng hypervisor + Xen Orchestra management). Fork of GPL-2.0/AGPL-3.0 + UniCORE additions. Multi-upstream (493 commits).
+- [`UniSaaS.UniCORE.XCP`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.XCP) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.XCP)) — SaaS-deployment-shape sister of UniCORE.XCP.
 - `bryanunitek/UniCORE.XCP-Claw` (private) — on-prem-shape working repository for UniCORE.XCP.
 - `bryanunitek/UniSaaS.UniCORE.XCP-Claw` (private) — SaaS-shape working repository.
 
@@ -354,7 +354,7 @@ Attribution required wherever UniCORE, UniCORE AI, the TrueAI Foundation, or the
 
 ## Licence
 
-Given, not sold. The architecture is public, open, and free. The TrueAI Foundation cannot be modified, forked, commercialised, patented, or proprietarily captured. See [LICENSE.md](LICENSE.md) for full terms; see the canonical [`UniVERSE/IRREVOCABLE-LICENCE-DECLARATION.md`](https://github.com/bryanunitek/UniVERSE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md) for the formal irrevocability declaration that covers the whole programme.
+Given, not sold. The architecture is public, open, and free. The TrueAI Foundation cannot be modified, forked, commercialised, patented, or proprietarily captured. See [LICENSE.md](LICENSE.md) for full terms; see the canonical [`UniVERSE/IRREVOCABLE-LICENCE-DECLARATION.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/IRREVOCABLE-LICENCE-DECLARATION.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/IRREVOCABLE-LICENCE-DECLARATION.md)) for the formal irrevocability declaration that covers the whole programme.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, May 2026.
 

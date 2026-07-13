@@ -78,7 +78,7 @@ UniCORE answers this with a two-layer architecture:
 
 Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract).
 
-Full doctrine: [`THE-INCONSISTENCY-PROBLEM.md`](THE-INCONSISTENCY-PROBLEM.md).
+Full doctrine: [`THE-INCONSISTENCY-PROBLEM.md`](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/THE-INCONSISTENCY-PROBLEM.md)).
 
 ---
 
@@ -88,16 +88,16 @@ Full doctrine: [`THE-INCONSISTENCY-PROBLEM.md`](THE-INCONSISTENCY-PROBLEM.md).
 
 This repository exists today as the **canonical public home** for UniCORE — the place where its identity, licence, roadmap, and naming rules are recorded.
 
-**The source code is not yet published here.** Source code is published when the first Vertical CORE that uses UniCORE — `UniCORE.Law-Claw` — is certified Powered by UniCORE AI / built on the TrueAI Foundation. See [ROADMAP.md](ROADMAP.md) for the trigger condition and what arrives at that point.
+**The source code is not yet published here.** Source code is published when the first Vertical CORE that uses UniCORE — `UniCORE.Law-Claw` — is certified Powered by UniCORE AI / built on the TrueAI Foundation. See [ROADMAP.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/ROADMAP.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/ROADMAP.md)) for the trigger condition and what arrives at that point.
 
 What is published here today:
 
-- **The licence** — CC BY 4.0, irrevocable, the same terms as the rest of the programme. See [LICENSE.md](LICENSE.md).
-- **The licensing reference with worked scenarios** — plain-English guidance for Partners, Clients, and Software Providers, with worked examples per industry. See [LICENSE_EXAMPLES.md](LICENSE_EXAMPLES.md).
-- **The naming and claims rules** — what can and cannot be claimed about the UniCORE name. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md).
-- **The roadmap** — what arrives at certification and in what shape. See [ROADMAP.md](ROADMAP.md).
-- **The AI authorship disclosure** — same disclosure form as the Foundation triad. See [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
-- **The agent rules** — how Claws working on this repository conduct themselves. See [AGENTS.md](AGENTS.md).
+- **The licence** — CC BY 4.0, irrevocable, the same terms as the rest of the programme. See [LICENSE.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/LICENSE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/LICENSE.md)).
+- **The licensing reference with worked scenarios** — plain-English guidance for Partners, Clients, and Software Providers, with worked examples per industry. See [LICENSE_EXAMPLES.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/LICENSE_EXAMPLES.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/LICENSE_EXAMPLES.md)).
+- **The naming and claims rules** — what can and cannot be claimed about the UniCORE name. See [STATEMENT-ON-CLAIMS.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/STATEMENT-ON-CLAIMS.md)).
+- **The roadmap** — what arrives at certification and in what shape. See [ROADMAP.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/ROADMAP.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/ROADMAP.md)).
+- **The AI authorship disclosure** — same disclosure form as the Foundation triad. See [AI-AUTHORSHIP.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/AI-AUTHORSHIP.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/AI-AUTHORSHIP.md)).
+- **The agent rules** — how Claws working on this repository conduct themselves. See [AGENTS.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/AGENTS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/AGENTS.md)).
 
 The repository will accumulate documentation between now and certification. Source code arrives at certification.
 
@@ -362,7 +362,7 @@ Given, not sold. The architecture is public, open, and free. The TrueAI Foundati
 
 ## AI authorship
 
-This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
+This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/AI-AUTHORSHIP.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/AI-AUTHORSHIP.md)).
 
 ---
 
@@ -376,11 +376,11 @@ For Foundation-level debate (the invariants themselves, the architecture, civili
 
 ## Classification, brand, and claims
 
-UniCORE is the implementation reference for governed AI. It is not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) for binding rules on how the UniCORE name may and may not be used.
+UniCORE is the implementation reference for governed AI. It is not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/STATEMENT-ON-CLAIMS.md)) for binding rules on how the UniCORE name may and may not be used.
 
 ---
 
 ## Contact
 
-- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions) (see [DISCUSSIONS.md](DISCUSSIONS.md))
+- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniCORE/discussions) (see [DISCUSSIONS.md](https://git.unitek-systems.com/UniCORE/UniCORE/src/branch/main/DISCUSSIONS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE/blob/main/DISCUSSIONS.md)))
 - **Private contact / connection request:** [LinkedIn](https://www.linkedin.com/in/bryan-fred-02209753/)
